@@ -1,0 +1,46 @@
+.app__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  box-shadow: 0 0.5rem 1rem #d2d2d2;
+  justify-content: space-between;
+}
+
+.app__header__component2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-auth,
+.admin-auth {
+  display: flex;
+  font-size: 1.5rem;
+  cursor: pointer;
+  justify-content: center;
+  width: 50%;
+  padding: 1rem;
+}
+
+.user-auth h3,
+.admin-auth h3 {
+  font-weight: 400;
+}
+
+.tab-border div.selected-user {
+  transform: translateX(0%);
+}
+
+.tab-border div.selected-admin {
+  transform: translateX(100%);
+}
+
+.tab-border {
+  width: 100%;
+  height: 0.2rem;
+}
+.tab-border div {
+  width: 50%;
+  height: 100%;
+  background-color: var(--primary-dark);
+  transition: all 0.2s;
+}

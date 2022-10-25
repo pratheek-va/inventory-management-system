@@ -1,0 +1,62 @@
+.body {
+  display: flex;
+  margin-top: 2rem;
+  background-color: var(--app-white);
+
+  height: 15rem;
+  transition: all 0.2s;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.information {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+}
+
+.order-info {
+  font-weight: 600;
+}
+.image-container {
+  height: 100%;
+  width: 20rem;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.information div {
+  margin-right: 2rem;
+}
+
+.button {
+  display: flex;
+
+  margin-right: 3rem;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.order-price {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--value-color);
+}
+
+.order-price-details {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  align-self: center;
+}
+
+.status {
+  color: red;
+}
+
+.btn {
+  margin-left: 2rem;
+}

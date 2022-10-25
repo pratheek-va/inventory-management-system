@@ -1,0 +1,221 @@
+.body {
+  display: flex;
+  /* height: 85vh; */
+  background-color: var(--grey-background);
+  padding: 2rem;
+  font-size: 1.6rem;
+}
+
+.activity {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.information {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--app-white);
+  padding: 2rem;
+}
+
+.image-section {
+  flex: 0 0 50%;
+  height: 100%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+
+  background-size: cover;
+}
+
+.details-section {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.name {
+  margin-top: 3rem;
+}
+
+.name h2 {
+  text-transform: uppercase;
+  font-size: 8rem;
+}
+
+.name p {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: var(--grey-dark);
+}
+
+.item-value {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.price,
+.quantity {
+  flex: 1;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+}
+
+.price-value {
+  font-size: 6rem;
+  font-weight: 500;
+  color: var(--value-color);
+}
+
+.quantity-value {
+  display: flex;
+  width: 18rem;
+  height: 4.5rem;
+  justify-content: space-between;
+  background-color: var(--grey-light);
+  padding: 0.5rem;
+  border-radius: 5rem;
+  margin-top: 2.2rem;
+}
+
+.quantity-value button {
+  border: none;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  font-size: 3rem;
+  font-weight: 300;
+  color: rgb(155, 155, 155);
+}
+
+.quantity-value p {
+  align-self: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.detail-desc {
+  margin-top: 3rem;
+  height: 20rem;
+}
+
+.de-header::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 0.01rem;
+  background-color: rgb(110, 110, 110);
+  margin-top: 1rem;
+}
+
+.de-header span {
+  text-transform: uppercase;
+  margin-right: 2rem;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: solid 0.2rem var(--grey-dark);
+  padding-bottom: 0.99rem;
+}
+.details,
+.description {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.2s;
+}
+
+.description {
+  transform: translateY(100px);
+}
+
+.order-item {
+  text-transform: uppercase;
+  display: flex;
+  flex: 1;
+}
+
+.total-price {
+  margin-bottom: 0.3rem;
+}
+
+.total-price p:first-child {
+  color: var(--value-color);
+  font-size: 1.6rem;
+}
+
+.total-price p:last-child {
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.cart {
+  font-size: 3rem;
+  margin-right: 1.4rem;
+}
+
+.total-price,
+.button-order {
+  flex: 1;
+  align-self: flex-end;
+}
+
+.order-button {
+  width: 20rem;
+  height: 5.5rem;
+  color: var(--app-white);
+  font-weight: 600;
+  background-color: var(--primary-dark);
+  border-radius: 5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.button-text {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.ord-details {
+  flex: 1;
+  text-transform: capitalize;
+  font-size: 1.6rem;
+}
+
+.ord-text {
+  font-weight: 600;
+}
+
+.quantity-change {
+  cursor: pointer;
+}
+
+.products-details-section {
+  width: 100%;
+  height: 10rem;
+  overflow: hidden;
+}
+
+.button-container {
+  display: flex;
+  flex: 1;
+}
+
+.button {
+  flex: 1;
+  align-self: flex-end;
+}

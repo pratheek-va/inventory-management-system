@@ -1,0 +1,49 @@
+.body {
+  flex-direction: column;
+  width: 15%;
+  background-color: var(--app-black);
+}
+
+.navigation {
+  margin: 0;
+}
+
+.navigation-tab {
+  font-size: 1.6rem;
+}
+
+.navs:hover {
+  background-color: var(--primary-dark);
+}
+
+.navigation-tab a:link,
+.navigation-tab a:hover {
+  text-decoration: none;
+}
+
+.navs {
+  font-size: 1.6rem;
+  color: var(--app-white);
+  padding: 2rem;
+  width: 100%;
+  height: 100%;
+  transition: all 0.3s;
+}
+
+.active > .navs {
+  background-color: var(--primary-dark);
+}
+
+.navs {
+  text-align: center;
+}
+
+.icon {
+  font-size: 3rem;
+}
+
+.logout {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "service-hub",
+  "version": "1.0.0",
+  "description": "Building website",
+  "main": "app.js",
+  "scripts": {
+    "start:dev": "nodemon server.js",
+    "start:prod": "set NODE_ENV=production& nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "debug": "ndb server.js"
+  },
+  "author": "Pratheek V A",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.5",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}

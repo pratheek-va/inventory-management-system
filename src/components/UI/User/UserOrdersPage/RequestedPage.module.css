@@ -1,0 +1,11 @@
+.body {
+  height: 85vh;
+  background-color: var(--grey-background);
+}
+
+.requests {
+  height: 100%;
+  width: 100%;
+  padding: 0 2rem 2rem 2rem;
+  overflow: scroll;
+}

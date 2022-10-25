@@ -1,0 +1,29 @@
+.button-order {
+  /* font-size: 1.6rem; */
+  text-transform: uppercase;
+}
+
+.order-button {
+  /* width: calc(20rem * 0.9);
+  height: calc(5.5rem * 0.9); */
+  color: var(--app-white);
+  font-weight: 600;
+  background-color: var(--primary-dark);
+  border-radius: 5rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.button-text {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.cart {
+  margin-right: 1.4rem;
+  margin-top: 0.3rem;
+}
